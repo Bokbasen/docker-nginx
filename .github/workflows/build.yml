@@ -12,4 +12,4 @@ jobs:
 
             - name: Creating docker image
               run: |
-                  docker build -t docker-base-image-php .
+                  docker build -t docker-nginx .
